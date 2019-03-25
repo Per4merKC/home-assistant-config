@@ -39,11 +39,10 @@ integrating them with modern technology and convienence.
 - Amazon Echo Spot
 - Android Camera (Phone)
 
-[gitlabci-shield]:
-  https://gitlab.com/per4merkc/home-assistant-config/badges/master/pipeline.svg
+<!-- markdownlint-disable MD013 -->
+[gitlabci-shield]: https://gitlab.com/per4merkc/home-assistant-config/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/per4merkc/home-assistant-config/pipelines
-[commits-shield]:
-  https://img.shields.io/github/commit-activity/y/per4merkc/home-assistant-config.svg
+[commits-shield]: https://img.shields.io/github/commit-activity/y/per4merkc/home-assistant-config.svg
 [commits]: https://github.com/per4merkc/home-assistant-config/commits/master
-[last-commit-shield]:
-  https://img.shields.io/github/last-commit/per4merkc/home-assistant-config.svg
+[last-commit-shield]: https://img.shields.io/github/last-commit/per4merkc/home-assistant-config.svg
+<!-- markdownlint-enable MD013 -->
