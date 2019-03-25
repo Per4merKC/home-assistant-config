@@ -1,3 +1,4 @@
+---
 homeassistant:
   name: Honey Haus
   latitude: !secret ha_lat

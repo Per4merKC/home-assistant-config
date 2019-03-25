@@ -1,6 +1,6 @@
 ---
 # Brother HL-4150CDN series
-#   This printer uses character codes to show a "graph" indicating 
+#   This printer uses character codes to show a "graph" indicating
 #   the toner levels
 
 platform: command_line
