@@ -44,3 +44,5 @@ notebooks
 
 # Specific keeps
 !.gitkeep
+!/.stubs
+!/.stubs/secrets.yaml
