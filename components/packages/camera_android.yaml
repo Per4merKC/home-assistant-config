@@ -1,0 +1,14 @@
+---
+android_ip_webcam:
+  - host: !secret android_ip_camera_ip
+    sensors:
+      - light
+      - motion
+    switches:
+      - ffc
+      - night_vision
+      - overlay
+      - torch
+      - focus
+      - video_recording
+    motion_sensor: true
