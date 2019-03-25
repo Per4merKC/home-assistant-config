@@ -8,8 +8,8 @@ recorder:
       - weblink
       - sun
     entities:
-     - sensor.local_time
-  include: 
+      - sensor.local_time
+  include:
     entities:
       - plant.banana
       - plant.ficus

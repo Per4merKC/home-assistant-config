@@ -1,7 +1,7 @@
 ---
 history:
   exclude:
-    domains: 
+    domains:
       - automation
       - camera
       - updater

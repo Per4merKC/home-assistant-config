@@ -1,7 +1,7 @@
 ---
 logbook:
   exclude:
-    domains: 
+    domains:
       - automation
       - camera
       - updater
