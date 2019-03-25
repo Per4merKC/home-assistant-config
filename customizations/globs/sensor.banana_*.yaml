@@ -1,0 +1,3 @@
+---
+"sensor.banana_*":
+  hidden: true
