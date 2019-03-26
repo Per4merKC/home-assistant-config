@@ -13,7 +13,9 @@ __pycache__
 deps
 
 # Specific file ignores
+._.DS_Store
 .config_entries.json
+.DS_Store
 .homekit.state
 .ios.conf
 .tradfri_psk.conf
