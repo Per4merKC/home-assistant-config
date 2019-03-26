@@ -5,9 +5,3 @@ symbols:
   - name: Sprint
     currency: USD
     symbol: S
-  # - name: Apple
-  #   currency: USD
-  #   symbol: AAPL
-  # - name: Google
-  #   currency: USD
-  #   symbol: GOOGL
