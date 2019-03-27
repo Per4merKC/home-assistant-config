@@ -16,21 +16,16 @@ integrating them with modern technology and convienence.
 
 - Raspberry Pi 3 running Hass.io
 - Vera Controller
-
-  - X10 CM11a Interface
-
-    - Dining Room Chandelier
-    - Kitchen Lights
-    - Guest Bedroom Light
-
   - Z-Wave
-
     - Fibaro Eye
     - 3 Leviton Plug-In Dimmer Modules
     - 2 Aeotec Recessed Door Sensors
     - 2 BeSense Ceiling PIR Motion Detectors
     - GE Outdoor Module
-
+- Insteon 2413U USB Dual-Band Adapter
+  - Dining Room Chandelier (X10)
+  - Kitchen Lights (X10)
+  - Guest Bedroom Light (X10)
 - IKEA Trådfri
   - Bathroom Sink Light
   - Desk Lights
@@ -39,10 +34,14 @@ integrating them with modern technology and convienence.
 - Amazon Echo Spot
 - Android Camera (Phone)
 
+[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+
 <!-- markdownlint-disable MD013 -->
 [gitlabci-shield]: https://gitlab.com/per4merkc/home-assistant-config/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/per4merkc/home-assistant-config/pipelines
 [commits-shield]: https://img.shields.io/github/commit-activity/y/per4merkc/home-assistant-config.svg
 [commits]: https://github.com/per4merkc/home-assistant-config/commits/master
 [last-commit-shield]: https://img.shields.io/github/last-commit/per4merkc/home-assistant-config.svg
+[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
+[buymeacoffee]: https://www.buymeacoffee.com/per4merkc
 <!-- markdownlint-enable MD013 -->
