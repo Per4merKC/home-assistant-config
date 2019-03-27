@@ -4,5 +4,6 @@ resources: !include_dir_list lovelace/resources
 views:
   - !include lovelace/views/dashboard.yaml
   - !include lovelace/views/livingroom.yaml
+  - !include lovelace/views/finance.yaml
   - !include lovelace/views/plants.yaml
   - !include lovelace/views/system.yaml
