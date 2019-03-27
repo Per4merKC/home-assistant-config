@@ -1,0 +1,10 @@
+---
+id: dashboard
+title: Dashboard
+icon: mdi:home-assistant
+cards:
+  - type: thermostat
+    entity: climate.thermostat
+  - type: iframe
+    aspect_ratio: 90%
+    url: https://embed.windy.com/embed2.html?lat=39.030158&lon=-94.673839&zoom=11&level=surface&overlay=wind&menu=&message=&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&detailLat=39.030158&detailLon=-94.673839&metricWind=default&metricTemp=default&radarRange=-1'

@@ -1,0 +1,7 @@
+---
+title: Honey Haus
+resources: !include_dir_list lovelace/resources
+views:
+  - !include lovelace/views/dashboard.yaml
+  - !include lovelace/views/livingroom.yaml
+  - !include lovelace/views/plants.yaml
