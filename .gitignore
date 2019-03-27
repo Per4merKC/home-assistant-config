@@ -1,11 +1,12 @@
 # Generic ignores
-*.log
+__pycache__
+._*
 *.db
 *.db-shm
 *.db-wal
+*.log
+*.pickle
 *.pyc
-._*
-__pycache__
 
 # Directory (contents) ignores
 .cloud
