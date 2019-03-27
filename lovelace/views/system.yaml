@@ -51,6 +51,9 @@ cards:
       - sensor.disk_free
       - sensor.last_boot
       - sensor.ssl_certificate_expiry
+      - type: divider
+      - sensor.uptime
+      - sensor.version_current
   - type: vertical-stack
     cards: 
       - type: horizontal-stack
@@ -85,4 +88,3 @@ cards:
               green: 40
               yellow: 20
               red: 10
-

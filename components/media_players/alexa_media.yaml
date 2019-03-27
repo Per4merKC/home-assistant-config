@@ -1,9 +1,6 @@
 ---
 alexa_media:
   accounts:
-    - email: !secret alexa_account_email
-      password: !secret alexa_account_password
+    - email: per4merkc@gmail.com
+      password: !secret alexa_password
       url: amazon.com
-      exclude_devices:
-        - "This Device"
-        - "Everywhere"

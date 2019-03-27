@@ -7,4 +7,4 @@ cards:
     entity: climate.thermostat
   - type: iframe
     aspect_ratio: 90%
-    url: https://embed.windy.com/embed2.html?lat=39.030158&lon=-94.673839&zoom=11&level=surface&overlay=wind&menu=&message=&marker=&calendar=now&pressure=true&type=map&location=coordinates&detail=&detailLat=39.030158&detailLon=-94.673839&metricWind=default&metricTemp=default&radarRange=-1'
+    url: "https://embed.windy.com/embed2.html?lat=39.041&lon=-94.607&zoom=11&level=surface&overlay=wind&menu=&message=&marker=&calendar=&pressure=&type=map&location=coordinates&detail=&detailLat=39.041&detailLon=-94.607&metricWind=mph&metricTemp=%C2%B0F&radarRange=-1"
