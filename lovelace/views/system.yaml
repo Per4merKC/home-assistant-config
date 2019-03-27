@@ -1,0 +1,6 @@
+---
+id: system
+title: System
+icon: mdi:settings
+cards:
+  - type: custom:tracker-card
