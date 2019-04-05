@@ -1,0 +1,24 @@
+---
+waze_destination:
+  name: Destination
+  initial: "Home"
+  options:
+    - Home
+    - Arts Asylum
+    - Barbers of Westport
+    - Costco
+    - Duane and Patrick
+    - Farm
+    - Folly Theatre
+    - Hy-Vee
+    - IKEA
+    - Inspire Fit
+    - John's Parents
+    - Johnson County Arts and Herritage Center
+    - Just Off Broadway Theatre
+    - Matt Ross Community Center
+    - OCTA
+    - Shawnee Mission Theatre in the Park
+    - Sprint
+    - The White Theatre
+    - Trader Joe's

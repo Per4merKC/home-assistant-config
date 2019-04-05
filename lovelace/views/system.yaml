@@ -21,7 +21,7 @@ cards:
       - type: horizontal-stack
         cards:
           - type: gauge
-            entity: sensor.printer_yellow
+            entity: sensor.printer_cyan
             unit: "%"
             severity:
               green: 40

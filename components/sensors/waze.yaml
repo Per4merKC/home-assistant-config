@@ -1,0 +1,6 @@
+---
+platform: waze_travel_time
+name: Travel
+origin: device_tracker.je_iphone
+destination: sensor.waze_dest_address
+region: US

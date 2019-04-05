@@ -1,0 +1,6 @@
+---
+id: travel
+title: Travel
+icon: mdi:car-electric
+cards:
+  - type: custom:tracker-card
