@@ -8,6 +8,9 @@ cards:
     show_header_toggle: false
     entities:
       - sensor.apple
+      - sensor.blue_chip
+      - sensor.google
+      - sensor.retail_therapy
       - sensor.sprint
   - type: horizontal-stack
     cards:

@@ -3,44 +3,5 @@ platform: template
 sensors:
   waze_dest_address:
     value_template: >-
-      {%- if is_state("input_select.waze_destination", "Home") -%}
-        zone.home
-      {%- elif is_state("input_select.waze_destination", "Arts Asylum") -%}
-        zone.arts_asylum
-      {%- elif is_state("input_select.waze_destination", "Barbers of Westport") -%}
-        zone.barbers_of_westport
-      {%- elif is_state("input_select.waze_destination", "Costco") -%}
-        zone.costco
-      {%- elif is_state("input_select.waze_destination", "Duane and Patrick") -%}
-        zone.duane_and_patrick
-      {%- elif is_state("input_select.waze_destination", "Farm") -%}
-        zone.farm
-      {%- elif is_state("input_select.waze_destination", "Folly Theatre") -%}
-        zone.folly_theatre
-      {%- elif is_state("input_select.waze_destination", "Hy-Vee") -%}
-        zone.hy_vee
-      {%- elif is_state("input_select.waze_destination", "IKEA") -%}
-        zone.ikea
-      {%- elif is_state("input_select.waze_destination", "Inspire Fit") -%}
-        zone.inspire_fit
-      {%- elif is_state("input_select.waze_destination", "John's Parents") -%}
-        zone.john_s_parents
-      {%- elif is_state("input_select.waze_destination", "Johnson County Arts and Herritage Center") -%}
-        zone.johnson_county_arts_and_herritage_center
-      {%- elif is_state("input_select.waze_destination", "Just Off Broadway Theatre") -%}
-        zone.just_off_broadway_theatre
-      {%- elif is_state("input_select.waze_destination", "Matt Ross Community Center") -%}
-        zone.matt_ross_community_center
-      {%- elif is_state("input_select.waze_destination", "OCTA") -%}
-        zone.octa
-      {%- elif is_state("input_select.waze_destination", "Shawnee Mission Theatre in the Park") -%}
-        zone.shawnee_mission_theatre_in_the_park
-      {%- elif is_state("input_select.waze_destination", "Sprint") -%}
-        zone.sprint
-      {%- elif is_state("input_select.waze_destination", "The White Theatre") -%}
-        zone.the_white_theatre
-      {%- elif is_state("input_select.waze_destination", "Trader Joe's") -%}
-        zone.trader_joe_s
-      {%- else -%}
-        Unknown
-      {%- endif -%}
+      {% set z = states.input_select.waze_destination.state.lower() | replace(" ", "_") | replace("'", "_") %}
+      {{ state_attr('zone.' + z, 'latitude') }},{{ state_attr('zone.' + z, 'longitude') }}

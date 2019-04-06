@@ -10,3 +10,5 @@ custom_updater:
   component_urls:
     # Alexa Media
     - https://raw.githubusercontent.com/keatontaylor/alexa_media_player/master/custom_components.json
+  card_urls:
+    - https://raw.githubusercontent.com/ljmerza/waze-card/master/custom_updater.json

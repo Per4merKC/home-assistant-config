@@ -1,6 +1,25 @@
 ---
 id: travel
 title: Travel
-icon: mdi:car-electric
+icon: mdi:car-connected
 cards:
-  - type: custom:tracker-card
+  - type: entities
+    title: Waze Destination
+    show_header_toggle: false
+    entities:
+      - entity: input_select.waze_destination
+        icon: mdi:car-connected
+      - type: divider
+      - entity: sensor.waze_dest_address
+        icon: mdi:map-marker
+  - type: custom:waze-card
+    entities:
+      - entity: sensor.travel_home
+        zone: zone.home
+        name: Home
+      - entity: sensor.travel_work
+        zone: zone.sprint
+        name: Work
+      - entity: sensor.travel
+        zone: sensor.waze_dest_address
+        name: Dynamic

@@ -1,0 +1,19 @@
+---
+alpha_vantage:
+  api_key: !secret alpha_vantage_key
+  symbols:
+    - name: Sprint
+      currency: USD
+      symbol: S
+    - name: Apple
+      currency: USD
+      symbol: AAPL
+    - name: Google
+      currency: USD
+      symbol: GOOGL
+    - name: Blue Chip
+      currency: USD
+      symbol: MGC
+    - name: Retail Therapy
+      currency: USD
+      symbol: XRT

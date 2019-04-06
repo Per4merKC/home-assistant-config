@@ -1,0 +1,19 @@
+---
+rest_command:
+  update_waze_destination:
+    url: "http://192.168.86.78:8123/api/services/input_select/set_options"
+    method: POST
+    headers:
+      content-type: application/json
+      Authorization: !secret ha_api_token
+    content_type: application/json
+    payload: >-
+      {
+        "entity_id": "input_select.waze_destination",
+        "options": [
+        {%- for state in states.zone -%}
+          "{{state.attributes.friendly_name}}"
+          {% if not loop.last %},{% endif -%}
+        {%- endfor -%}
+        ]
+      }
