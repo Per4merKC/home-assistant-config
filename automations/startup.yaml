@@ -5,7 +5,4 @@ trigger:
   platform: homeassistant
   event: start
 action:
-  - service: input_select.set_options
-    data:
-      entity_id: input_select.waze_destination
-      options: ["Home", "Sprint"]
+  - service: rest_command.update_waze_destination
